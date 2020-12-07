@@ -63,7 +63,7 @@ textarea{
     width:80%;
     height:15vh;
     display: block;
-    margin-left:2rem;
+    
     margin-bottom:1rem;
     padding: 1rem;
     text-align: left;
@@ -75,7 +75,7 @@ textarea{
 
 /* button */
 button{
-    margin-left: 1rem;
+    
     background-color: var(--orange-color);
     border: none;
     color: back;
@@ -84,7 +84,7 @@ button{
     font-size:1.5rem;
     font-family: 'Caveat', cursive;
     margin-bottom:1rem ;
-    margin-left:2rem;
+    
 }
 
 .iconarrow{
@@ -96,7 +96,7 @@ button{
 
 .outputhere-text{
     font-size:1.75rem;
-    margin-left:2rem;
+    
     text-align: center;
     color:var(--green-color);
 }
@@ -105,7 +105,7 @@ button{
     border: 1px solid black;
     height: 15vh;
     width: 80%;
-    margin:2rem;
+    
     padding: 2 rem;
     display: block;
     font-size: 1rem;
