@@ -14,7 +14,7 @@ function getTranslationUrl(text){
 // error handling
 function errorHandler(error){
     console.log(" error occured",error);
-    outputDiv.innerText("OOps! Something wrong with server. Try again later.");
+    alert("Oops! Something went wrong. Try again later.");
 }
 
 // click event
