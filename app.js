@@ -1,6 +1,7 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
+var errorDiv = document.querySelector("#errorMessage");
 
 
 // server url
@@ -14,7 +15,7 @@ function getTranslationUrl(text){
 // error handling
 function errorHandler(error){
     console.log(" error occured",error);
-    alert("We are sorry :(  You can only use this for 5 times per hour. Try again after an hour :)");
+    errorDiv.innerText="We are sorry. You can only use this for 5 times per hour. Try again later.";
 }
 
 // click event
